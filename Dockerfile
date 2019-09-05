@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY ./var/lib/jenkins/workspace/job1/webroot* /usr/share/nginx/html
